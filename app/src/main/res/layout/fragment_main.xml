@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dk.thegeorge.nav.navcalc.MainActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kompas til søkort" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView style="@style/text_w1"
+            android:id="@+id/st_k_dv_txt"
+            android:labelFor="@id/st_k_dv"
+            android:text="st.K.dv" />
+        <EditText style="@style/absDeg"
+            android:id="@+id/st_k_dv" />
+        <TextView style="@style/degSign" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView style="@style/text_w1"
+            android:id="@+id/dv_txt"
+            android:labelFor="@id/dv"
+            android:text="DV" />
+        <EditText style="@style/addText"
+            android:id="@+id/dv_" />
+        <TextView style="@style/space_w1" />
+        <TextView style="@style/addSign" />
+        <EditText style="@style/addDeg"
+            android:id="@+id/dv" />
+        <TextView style="@style/degSign" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView style="@style/text_w1"
+            android:id="@+id/st_k_mv_txt"
+            android:labelFor="@id/st_k_mv"
+            android:text="st.K.mv" />
+        <EditText style="@style/absDeg"
+            android:id="@+id/st_k_mv" />
+        <TextView style="@style/degSign" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView style="@style/text_w1"
+            android:id="@+id/mv_txt"
+            android:labelFor="@id/mv"
+            android:text="MV" />
+        <EditText style="@style/addText"
+            android:id="@+id/mv_" />
+        <TextView style="@style/space_w1" />
+        <TextView style="@style/addSign" />
+        <EditText style="@style/addDeg"
+            android:id="@+id/mv" />
+        <TextView style="@style/degSign" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView style="@style/text_w1"
+            android:id="@+id/st_k_rv_txt"
+            android:labelFor="@id/st_k_rv"
+            android:text="st.K.rv" />
+        <EditText style="@style/absDeg"
+            android:id="@+id/st_k_rv" />
+        <TextView style="@style/degSign" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView style="@style/text_w1"
+            android:id="@+id/afdrift_txt"
+            android:labelFor="@id/afdrift"
+            android:text="afdrift" />
+        <EditText style="@style/addText"
+            android:id="@+id/afdrift_" />
+        <TextView style="@style/space_w1" />
+        <TextView style="@style/addSign" />
+        <EditText style="@style/addDeg"
+            android:id="@+id/afdrift" />
+        <TextView style="@style/degSign" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView style="@style/text_w1"
+            android:id="@+id/sejl_k_rv_txt"
+            android:labelFor="@id/sejl_k_rv"
+            android:text="sejl.K.rv" />
+        <EditText style="@style/absDeg"
+            android:id="@+id/sejl_k_rv" />
+        <TextView style="@style/degSign" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView style="@style/text_w1"
+            android:id="@+id/stroem_txt"
+            android:labelFor="@id/stroem_"
+            android:text="strøm" />
+        <EditText style="@style/addText"
+            android:id="@+id/stroem_" />
+        <TextView style="@style/space_w1" />
+        <TextView style="@style/addSign" />
+        <EditText style="@style/addDeg"
+            android:id="@+id/stroem" />
+        <TextView style="@style/degSign" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView style="@style/text_w1"
+            android:id="@+id/beh_k_rv_txt"
+            android:labelFor="@id/beh_k_rv"
+            android:text="beh.K.rv" />
+        <EditText style="@style/absDeg"
+            android:id="@+id/beh_k_rv" />
+        <TextView style="@style/degSign" />
+    </LinearLayout>
+
+</LinearLayout>
